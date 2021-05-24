@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
+import TreeTable from 'vue-table-with-tree-grid'
 
 import './assets/css/globall.css'
 
@@ -14,6 +15,7 @@ Vue.use(ElementUI);
 // axios.defaults.baseURL = 'http://www.ysqorz.top:8888/api/private/v1/'
 
 Vue.config.productionTip = false
+Vue.component('tree-table', TreeTable)
 
 new Vue({
   router,

@@ -91,7 +91,7 @@ export default {
         url: "/menus",
         method: "get",
       }).then((res) => {
-        console.log(res);
+        // console.log(res);
         if (res.meta.status !== 200) return this.$message.error(res.meta.msg);
         this.menuList = res.data;
       });
