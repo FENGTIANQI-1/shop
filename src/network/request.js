@@ -3,7 +3,7 @@ import Vue from 'vue';
 
 export function request(config) {
     const instance = axios.create({
-        baseURL: 'http://www.ysqorz.top:8888/api/private/v1/',
+        baseURL: 'http://106.53.73.30:8888/api/private/v1/',
         method: 'post',
         timeout: '5000'
     })
