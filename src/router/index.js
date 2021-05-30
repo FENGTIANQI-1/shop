@@ -11,6 +11,7 @@ import Params from '../views/goods/Params'
 import GoodsList from '../views/goods/List'
 import Add from '../views/goods/Add'
 import Order from '../views/order/Order'
+import Report from '../views/report/Report'
 
 
 
@@ -75,6 +76,11 @@ const routes = [
       path: '/orders',
       name: 'Order',
       component: Order
+    },
+    {
+      path: '/reports',
+      name: 'Report',
+      component: Report
     },]
   },
 
