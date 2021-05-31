@@ -3,7 +3,7 @@
     <div class="login-box">
       <!-- 头像 -->
       <div class="avatar-box">
-        <img src="../assets/logo.png" alt="" />
+        <img src="../assets/home.png" alt="" />
       </div>
       <!-- 登陆表单 -->
       <el-form class="el-input" :model="form" :rules="rules" ref="LoginFrom">
@@ -94,16 +94,18 @@ export default {
 .login-color {
   background-color: #2b4b6b;
   height: 100%;
+  background-image: url("../assets/back-c.jpg");
 }
 .login-box {
   width: 450px;
   height: 300px;
-  background-color: #fff;
+  background-color: red;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 4px;
+  box-shadow: 0 0 0 0 rgb(0, 0, 0, 0.3);
 }
 .login-box .avatar-box {
   background-color: #fff;
